@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests" thread-count="2">
+    <test name="Employee Modul">
+        <classes>
+            <class name="Employee.EmployeeTest"></class>
+        </classes>
+    </test>
+<!--    <test name="Training Page">-->
+<!--        <classes>-->
+<!--            <class name="Training.TrainingTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
